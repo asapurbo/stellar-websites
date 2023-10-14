@@ -1,0 +1,935 @@
+/* All Common CSS Start */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+ul,
+ol {
+  list-style-type: none;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 0.8;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+.container {
+  width: 1280px !important;
+  margin: 0 auto !important;
+  padding: 0 !important;
+}
+.mmt {
+  margin-top: 48px;
+}
+/* All Common CSS End */
+
+/* Nav Part Start */
+#navPart {
+  background: #1c1e53;
+  padding: 16px 0;
+  position: fixed;
+  width: 100%;
+  z-index: 9999999999;
+}
+.navWrap {
+  display: flex;
+}
+/* Nav logo part start */
+.navLogo {
+  width: 15%;
+  padding: 16px 0;
+}
+/* Nav logo part end */
+
+/* Nav nav bar start */
+.navBar {
+  width: 65%;
+  text-align: right;
+}
+.navBar ul li {
+  display: inline-block;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.navBar ul li a {
+  color: #bbbbcb;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  padding: 16px 0;
+  transition: all 0.5s ease;
+}
+.navBar ul li a:hover {
+  color: #fff;
+}
+/* Nav nav bar end */
+
+/* nav button start */
+.nabButt {
+  width: 20%;
+  text-align: right;
+}
+.nabButt a {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  border-radius: 41px;
+  border: 2px solid rgba(244, 246, 252, 0.2);
+  padding: 16px 48px;
+  transition: all 0.5s ease;
+}
+.nabButt a:hover {
+  background: #fcd980;
+  color: #1b1c2b;
+}
+/* nav button end */
+/* Nav Part End */
+
+/* Banner Part Start */
+#bannerPart {
+  width: 100%;
+  padding-top: 286px;
+  padding-bottom: 128px;
+  background: #1c1e53;
+}
+.bannerWrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Banner text start */
+.bannerText {
+  width: 582px;
+}
+.bannerHeadText h1 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 74px;
+}
+.bannerPra p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  padding-top: 24px;
+  padding-bottom: 48px;
+  padding-right: 20px;
+}
+.bannerButt a {
+  color: #fff;
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  display: inline-flex;
+  padding: 16px 56px;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 56px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 41px;
+  transition: all 0.5s ease;
+}
+.bannerButt a:hover {
+  background: #fcd980;
+  color: #1b1c2b;
+}
+.bttIcon {
+  padding-left: 16px;
+}
+.bannerButt a:hover .bttIcon {
+  display: none;
+}
+.bttIconTwo {
+  display: none;
+  padding-left: 16px;
+}
+.bannerButt a:hover .bttIconTwo {
+  display: block;
+}
+/* Banner text end */
+
+/* Banner side images start */
+.bannerSideImg {
+  width: 638px;
+}
+.bannerSideImg img {
+  width: 100%;
+}
+/* Banner side images end */
+/* Banner Part End */
+
+/* service part start */
+#servicePart {
+  padding: 128px 0;
+  background: #f4f6fc;
+}
+.serviceWrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* service text start */
+.serviceText {
+  width: 405px;
+}
+.serviceText h3 {
+  color: #282938;
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+}
+.serviceText p {
+  color: #282938;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.serviceText a {
+  color: #2405f2;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+}
+/* service item start */
+.serviceItemWrap {
+  width: 656px;
+}
+.secvItem {
+  display: flex;
+  justify-content: space-between;
+}
+.thisItem {
+  width: 303px;
+}
+.thisItemImg {
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+
+.thisItemImg img {
+  width: 100%;
+}
+.thisItemImg h3 {
+  position: absolute;
+  left: 50%;
+  top: 23%;
+  transform: translate(-50%);
+  color: #fff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+}
+.thisItemText h3 {
+  color: #282938;
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  padding-top: 29px;
+  padding-bottom: 19px;
+}
+.thisItemText p {
+  color: #282938;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+/* service item end */
+
+/* service text end */
+
+/* service part end */
+
+/* Project Part Start */
+#projectPart {
+  padding: 128px 0;
+  background: #fff;
+}
+.projectHeadText {
+  display: flex;
+  justify-content: space-between;
+}
+.projectHeadText h3 {
+  color: #282938;
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+}
+.projectHeadText a {
+  color: #282938;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+.projectHeadText a i {
+  padding-left: 16px;
+}
+
+/* project images start */
+.pImt {
+  margin-top: 65px;
+}
+.firstProjectImg {
+  position: relative;
+  transition: all 0.5s ease;
+}
+.firstProjectImg img {
+  width: 100%;
+}
+.fiPrOverLe {
+  position: absolute;
+  background: linear-gradient(
+    329deg,
+    #1c1e53 -10.96%,
+    rgba(28, 30, 83, 0.42) 103.96%
+  );
+  left: 0;
+  top: 0;
+  display: none;
+  width: 396px;
+  height: 100%;
+}
+.firstProjectImg:hover .fiPrOverLe {
+  display: block;
+}
+.fiPrOverLeText {
+  padding-top: 316px;
+  padding-left: 48px;
+  padding-bottom: 76px;
+}
+.fiPrOverLe h3 {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+}
+.fiPrOverLe p {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  padding-top: 16px;
+  padding-bottom: 40px;
+}
+.fiPrOverLe a {
+  color: #fcd980;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+/* second porject img start */
+.SecprojectImg {
+  width: 405px;
+  position: relative;
+}
+.SecprojectImg img {
+  width: 100%;
+}
+.secImgOverLe {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    329deg,
+    #1c1e53 -10.96%,
+    rgba(28, 30, 83, 0.42) 103.96%
+  );
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+}
+.secImgOverLeText {
+  padding-top: 129px;
+  padding-bottom: 45px;
+  padding-left: 56px;
+}
+.secImgOverLeText h3 {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  padding-right: 100px;
+  padding-bottom: 10px;
+}
+.secImgOverLeText a {
+  color: #fcd980;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+.secImgOverLeText a i {
+  padding-left: 16px;
+}
+.SecprojectImg:hover .secImgOverLe {
+  display: block;
+}
+.tmt {
+  margin-top: 34px;
+}
+
+/* second porject img end */
+/* project images end */
+/* Project Part End */
+
+/* product part start */
+#productPart {
+  padding: 128px 0;
+  background: #f4f6fc;
+}
+.productHeadText {
+  width: 630px;
+  margin: 0 auto;
+  text-align: center;
+}
+.productHeadText h4 {
+  color: #282938;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+.productHeadText h3 {
+  color: #282938;
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+  padding-top: 12px;
+  padding-bottom: 47px;
+}
+
+/* ptoduct item start */
+.thisProductItem {
+  padding-top: 58px;
+  padding-left: 48px;
+  padding-bottom: 48px;
+  background: #fff;
+}
+.thisProImg {
+  width: 33px;
+}
+.thisProImg img {
+  width: 100%;
+}
+.thisProText h3 {
+  color: #282938;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+.thisProText p {
+  color: #282938;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.secrowMt {
+  margin-top: 24px;
+}
+/* ptoduct item end */
+
+/* product part end */
+
+/* continue part start */
+#continuePart {
+  padding: 128px 0;
+  background: rgba(244, 246, 252, 0.5);
+}
+.continueHeadText {
+  width: 327px;
+}
+.continueHeadText h3 {
+  color: #282938;
+  font-family: Poppins;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 56px;
+}
+.continueHeadText p {
+  color: #282938;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  padding-top: 16px;
+}
+.continueSideText h3 {
+  color: #282938;
+  font-family: "Poppins", sans-serif;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 48px;
+  padding-bottom: 58px;
+}
+.conuImgTextWithButt {
+  display: flex;
+  justify-content: space-between;
+}
+.counImgText {
+  display: flex;
+}
+.counImg {
+  width: 52px;
+  height: 52px;
+}
+.counImg img {
+  border-radius: 100%;
+}
+.counText {
+  margin-left: 14px;
+}
+.counText h3 {
+  color: #282938;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+.counText h4 {
+  color: #282938;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+}
+.counButt {
+  display: flex;
+}
+.conubuttOne {
+  height: 48px;
+  width: 48px;
+  background: #fff;
+  border-radius: 100%;
+}
+.conubuttOne a {
+  padding: 8px 16px;
+  color: rgba(40, 41, 56, 0.6);
+  font-size: 22px;
+}
+.conubuttOne:hover {
+  background: #5239fa;
+}
+.conubuttOne a:hover {
+  color: #fff;
+}
+.scebuttMl {
+  margin-left: 11px;
+}
+/* continue part end */
+
+/* Item part start */
+#itemPart {
+  padding: 128px 0;
+}
+.itemHeadText h3 {
+  color: #282938;
+  font-family: "Poppins", sans-serif;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 56px;
+  width: 328px;
+}
+.itemHeadText p {
+  color: #2405f2;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  padding-top: 16px;
+}
+.itemLeftContein {
+  border-bottom: 2px solid #ececf1;
+  padding-bottom: 32px;
+}
+.itemLeftContein:last-child {
+  border-bottom: none;
+}
+.itemLeftContein {
+  display: flex;
+}
+.itemCountNum {
+  padding-left: 10px;
+  margin-right: 59px;
+}
+.itemCountNum h3 {
+  color: #2405f2;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+}
+.itemLtConteinTexWr {
+  width: 100%;
+}
+.itemTextWithIcon {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7px;
+  width: 100%;
+}
+.itemTextWithIcon h3 {
+  color: #282938;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  padding-bottom: 16px;
+}
+.itemLeftConteinPra {
+  width: 624px;
+  display: none;
+}
+.itemLeftConteinPra p {
+  color: #282938;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+}
+.Imt {
+  margin-top: 32px;
+}
+/* Item part end */
+
+/* Contact part start */
+#contactPart {
+	padding-bottom: 60px;
+}
+.textWithForm {
+  display: flex;
+}
+/* contact text start */
+.contactTextWithImg {
+  position: relative;
+  width: 656px;
+}
+.contactImg img {
+  width: 100%;
+}
+.contactOverLe {
+  background: rgba(28, 30, 83, 0.5);
+  width: 656px;
+  height: 100%;
+  padding-top: 100px;
+  padding-bottom: 261px;
+  padding-left: 96px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.contactOverLe h3 {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 74px;
+}
+.contactOverLe p {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  padding-top: 24px;
+}
+/* contact text end */
+
+/* contact form start */
+.contactFrom {
+  width: 624px;
+  background: #1c1e53;
+}
+.contactFormWrap {
+  padding: 96px 96px 48px 96px;
+}
+.contFormText h3 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 500;
+}
+.contFormText p {
+  color: #f4f6fc;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  padding-bottom: 40px;
+  padding-top: 16px;
+}
+.fName input[type="text"] {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 32px;
+  width: 100%;
+  background: transparent;
+  border-radius: 8px;
+  border: 1.5px solid rgba(255, 255, 255, 0.05);
+  color: #f4f6fc;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+.fEmail input[type="email"] {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 32px;
+  width: 100%;
+  background: transparent;
+  border-radius: 8px;
+  border: 1.5px solid rgba(255, 255, 255, 0.05);
+  color: #f4f6fc;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+.fPaste input[type="text"] {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-left: 32px;
+  width: 100%;
+  background: transparent;
+  border-radius: 8px;
+  border: 1.5px solid rgba(255, 255, 255, 0.05);
+  color: #f4f6fc;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 39px;
+}
+.buttOne button[type="submit"] {
+  padding: 15px 149px;
+  border-radius: 41px;
+  background: transparent;
+  border: 1.5px solid rgba(255, 255, 255, 0.05);
+  color: #f4f6fc;
+  font-family: "Manrope", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  transition: all 0.5s ease;
+}
+.buttOne button[type="submit"]:hover {
+  background: #fcd980;
+  color: #1b1c2b;
+}
+.buttTwo {
+  margin-top: 28px;
+  text-align: center;
+}
+
+.buttTwo a {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+.buttTwo a i {
+  padding-left: 16px;
+}
+
+/* contact form end */
+/* Contact part end */
+
+/* View part start */
+#viewPart {
+  padding-bottom: 128px;
+  background: #fff;
+}
+.viewHeadText h3 {
+  color: #282938;
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  padding-bottom: 64px;
+}
+.viewImg img {
+  width: 100%;
+}
+.viewText h4 {
+  color: #282938;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  padding-top: 40px;
+}
+.viewText h3 {
+  color: #282938;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.viewText p {
+  color: #282938;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.viewText a {
+  color: #282938;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  margin-top: 32px;
+}
+.viewText a i {
+  padding-left: 16px;
+}
+/* View part end */
+
+/* Media part start */
+#mediaPart {
+  padding-top: 96px;
+  background: #1c1e53;
+}
+.meLogo {
+  width: 156px;
+}
+.meLogo img {
+  width: 100%;
+}
+.meText p {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  padding-top: 22px;
+}
+.meLeText h3 {
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+}
+.meLeText p {
+  color: #f4f6fc;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  padding-bottom: 28px;
+  padding-top: 14px;
+}
+.meLeIcon a {
+  margin-right: 26px;
+  font-size: 16px;
+  color: #fff;
+}
+/* contact number and email start */
+.contactNumAndEm {
+  background: #fcd980;
+  padding-top: 18px;
+  padding-bottom: 16px;
+  padding-left: 37px;
+  display: flex;
+}
+.contNumber {
+  margin-left: 29px;
+}
+.contEmail h3,
+.contNumber h3 {
+  color: #282938;
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  padding-bottom: 18px;
+}
+.contEmail p,
+.contNumber p {
+  color: #282938;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* contact number and email end */
+/* Media part end */
+
+/* Footer part start */
+#footerPart {
+  padding: 32px 0;
+  background: #fff;
+}
+.footerTextWithManu {
+  display: flex;
+  justify-content: space-between;
+}
+.footerText h3 {
+  color: #282938;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+.footerManu ul li {
+  padding-left: 32px;
+  display: inline-block;
+}
+.footerManu ul li a {
+  color: #282938;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  position: relative;
+  transition: 0.3s;
+}
+.footerManu ul li a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  background: #282938;
+  left: 0;
+  bottom: -1px;
+  margin: auto;
+  transition: all 0.5s ease;
+}
+.footerManu ul li a:hover::after {
+  width: 100%;
+}
+/* Footer part end */

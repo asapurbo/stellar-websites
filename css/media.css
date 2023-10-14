@@ -1,0 +1,1547 @@
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* All common css start */
+  .container {
+    width: 95% !important;
+    margin: 0 auto !important;
+    overflow: hidden !important;
+  }
+  /* All common css end */
+
+  /* nav part start */
+  .navBar {
+    display: none;
+  }
+  .navLogo {
+    width: 50%;
+  }
+  .nabButt {
+    width: 50%;
+    padding: 10px 0;
+  }
+  .nabButt a {
+    font-size: 12px;
+    padding: 13px 35px;
+  }
+  /* nav part end */
+
+  /* banner part start */
+  .bannerWrap {
+    display: block;
+  }
+  .bannerText {
+    width: 100%;
+  }
+  #bannerPart {
+    width: 100%;
+    padding-top: 122px;
+    padding-bottom: 80px;
+  }
+  .bannerHeadText h1 {
+    font-size: 38px;
+    line-height: 58px;
+    text-align: center;
+  }
+  .bannerPra p {
+    padding-bottom: 0px;
+    padding-right: 0px;
+    text-align: center;
+  }
+  .bannerButt {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 60px;
+  }
+  .bannerButt a {
+    font-size: 12px;
+    padding: 13px 31px;
+    border-radius: 41px;
+    border: 2px solid rgba(244, 246, 252, 0.2);
+  }
+  .bttIcon {
+    padding-left: 7px;
+  }
+  .bannerSideImg {
+    width: 100%;
+  }
+  /* banner part end */
+
+  /* service part start */
+  #servicePart {
+    padding: 70px 0;
+  }
+  .serviceWrap {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .serviceText {
+    width: 100%;
+  }
+  .serviceText h3 {
+    font-size: 46px;
+  }
+  .serviceText {
+    text-align: center;
+  }
+  .secvItem {
+    display: flex;
+    justify-content: space-between;
+  }
+  .serviceItemWrap {
+    width: 100%;
+  }
+  .thisItem {
+    width: 334px;
+    margin: 0 auto;
+    margin-top: 50px !important;
+  }
+  /* service part end */
+
+  /* project part start */
+  #projectPart {
+    padding: 70px 0;
+  }
+  .projectHeadText h3 {
+    font-size: 30px;
+    padding: 10px 0;
+  }
+
+  .projectHeadText a {
+    font-size: 12px;
+    padding: 13px 35px;
+    border-radius: 41px;
+    border: 2px solid rgba(11, 11, 12, 0.2);
+    margin-top: 25px;
+  }
+  .projectHeadText {
+    display: block;
+  }
+  .projectHeadText a i {
+    padding-left: 2px;
+  }
+  .SecprojectImg {
+    width: 100%;
+  }
+  .fiPrOverLe {
+    display: block !important;
+    width: 100%;
+  }
+  .secImgOverLe {
+    display: block !important;
+  }
+  .fiPrOverLeText {
+    padding-top: 78px;
+    padding-left: 25px;
+    padding-bottom: 0px;
+  }
+  .fiPrOverLe h3 {
+    font-size: 38px;
+    line-height: 49px;
+  }
+  .firstProjectImg {
+    margin-bottom: 20px;
+  }
+  .fiPrOverLe p {
+    font-size: 16px;
+    line-height: 22px;
+    padding-top: 16px;
+    padding-bottom: 40px;
+  }
+  .secImgOverLeText {
+    padding-top: 40px;
+    padding-left: 25px;
+    padding-bottom: 0px;
+  }
+  .secImgOverLeText h3 {
+    font-size: 38px;
+    padding-right: 100px;
+    padding-bottom: 27px;
+    padding-top: 50px;
+    line-height: 49px;
+  }
+  /* project part end */
+
+  /* product part start */
+  .thisProductItem {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    height: 335px;
+  }
+  .thisProText h3 {
+    line-height: 25px;
+  }
+  /* product part end */
+
+  /* continue part start */
+  #continuePart {
+    padding: 70px 0;
+    background: rgba(244, 246, 252, 0.5);
+  }
+  .continueHeadText {
+    width: 100%;
+    text-align: center;
+  }
+  .continueHeadText h3 {
+    font-size: 36px;
+    line-height: 50px;
+  }
+  .continueHeadText p {
+    padding-bottom: 40px;
+  }
+  .continueSideText h3 {
+    font-size: 22px;
+    line-height: 34px;
+  }
+  .continueSideText {
+    text-align: center;
+  }
+  /* continue part end */
+
+  /* itam part start */
+  .itemCountNum {
+    margin-right: 35px;
+  }
+  .itemLeftConteinPra {
+    width: 100%;
+  }
+  .itemHeadText h3 {
+    font-size: 33px;
+    line-height: 45px;
+  }
+  .itemTextWithIcon h3 {
+    font-size: 20px;
+    padding-bottom: 0px;
+  }
+  .itemLeftConteinPra {
+    width: 100%;
+    margin-top: 13px;
+  }
+  .itemLeftConteinPra p {
+    font-size: 14px;
+    line-height: 19px;
+  }
+  /* itam part end */
+
+  /* contact part start*/
+  .contactTextWithImg {
+    width: 50%;
+  }
+  .contactFrom {
+    width: 50%;
+  }
+  .contactOverLe {
+    width: 100%;
+    height: 100%;
+    padding-top: 80px;
+    padding-left: 35px;
+  }
+  .contactFormWrap {
+    padding: 40px 40px 35px 40px;
+  }
+  .contactImg {
+    height: 637px;
+  }
+  .contactImg img {
+    height: 100%;
+  }
+  .buttOne button[type="submit"] {
+    padding: 15px 100px;
+    font-size: 18px;
+    width: 100%;
+  }
+  /* contact part end */
+
+  /* media part start */
+
+  .contactNumAndEm {
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-around;
+  }
+  .contEmail h3,
+  .contNumber h3 {
+    font-size: 13px;
+  }
+  .contEmail p,
+  .contNumber p {
+    font-size: 12px;
+  }
+
+  /* media part end */
+
+  /* footer part start */
+  .footerText h3 {
+    padding: 7px 0;
+  }
+  /* footer part end */
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* All common css start */
+  .container {
+    width: 95% !important;
+    margin: 0 auto !important;
+    overflow: hidden !important;
+  }
+  /* All common css end */
+
+  /* nav part start */
+  .navBar {
+    display: none;
+  }
+  .navLogo {
+    width: 50%;
+  }
+  .nabButt {
+    width: 50%;
+    padding: 10px 0;
+  }
+  .nabButt a {
+    font-size: 12px;
+    padding: 13px 35px;
+  }
+  /* nav part end */
+
+  /* banner part start */
+  .bannerWrap {
+    display: block;
+  }
+  .bannerText {
+    width: 100%;
+  }
+  #bannerPart {
+    width: 100%;
+    padding-top: 122px;
+    padding-bottom: 80px;
+  }
+  .bannerHeadText h1 {
+    font-size: 38px;
+    line-height: 58px;
+    text-align: center;
+  }
+  .bannerPra p {
+    padding-bottom: 0px;
+    padding-right: 0px;
+    text-align: center;
+  }
+  .bannerButt {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 60px;
+  }
+  .bannerButt a {
+    font-size: 12px;
+    padding: 13px 31px;
+    border-radius: 41px;
+    border: 2px solid rgba(244, 246, 252, 0.2);
+  }
+  .bttIcon {
+    padding-left: 7px;
+  }
+  .bannerSideImg {
+    width: 100%;
+  }
+  /* banner part end */
+
+  /* service part start */
+  #servicePart {
+    padding: 70px 0;
+  }
+  .serviceWrap {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .serviceText {
+    width: 100%;
+  }
+  .serviceText h3 {
+    font-size: 46px;
+  }
+  .serviceText {
+    text-align: center;
+  }
+  .secvItem {
+    display: flex;
+    justify-content: space-between;
+  }
+  .serviceItemWrap {
+    width: 100%;
+  }
+  .thisItem {
+    width: 334px;
+    margin: 0 auto;
+    margin-top: 50px !important;
+  }
+  /* service part end */
+
+  /* project part start */
+  #projectPart {
+    padding: 70px 0;
+  }
+  .projectHeadText h3 {
+    font-size: 30px;
+    padding: 10px 0;
+  }
+
+  .projectHeadText a {
+    font-size: 12px;
+    padding: 13px 35px;
+    border-radius: 41px;
+    border: 2px solid rgba(11, 11, 12, 0.2);
+    margin-top: 25px;
+  }
+  .projectHeadText {
+    display: block;
+  }
+  .projectHeadText a i {
+    padding-left: 2px;
+  }
+  .SecprojectImg {
+    width: 100%;
+  }
+  .fiPrOverLe {
+    display: block !important;
+    width: 100%;
+  }
+  .secImgOverLe {
+    display: block !important;
+  }
+  .fiPrOverLeText {
+    padding-top: 78px;
+    padding-left: 25px;
+    padding-bottom: 0px;
+  }
+  .fiPrOverLe h3 {
+    font-size: 38px;
+    line-height: 49px;
+  }
+  .firstProjectImg {
+    margin-bottom: 20px;
+  }
+  .fiPrOverLe p {
+    font-size: 16px;
+    line-height: 22px;
+    padding-top: 16px;
+    padding-bottom: 40px;
+  }
+  .secImgOverLeText {
+    padding-top: 40px;
+    padding-left: 25px;
+    padding-bottom: 0px;
+  }
+  .secImgOverLeText h3 {
+    font-size: 38px;
+    padding-right: 100px;
+    padding-bottom: 27px;
+    padding-top: 50px;
+    line-height: 49px;
+  }
+  /* project part end */
+
+  /* product part start */
+  #productPart {
+    padding: 60px 0;
+    background: #f4f6fc;
+  }
+  .productHeadText {
+    width: 100%;
+  }
+  .productHeadText h3 {
+    font-size: 35px;
+    line-height: 47px;
+  }
+
+  .thisProductItem {
+    background: #131313;
+    margin-top: 16px;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .thisProText h3 {
+    color: #707189;
+    line-height: 30px;
+  }
+  .thisProText p {
+    color: #707189;
+  }
+  .secrowMt {
+   margin-top: 0px; 
+  }
+  /* product part end */
+
+  /* continue part start */
+  #continuePart {
+    padding: 70px 0;
+    background: rgba(244, 246, 252, 0.5);
+  }
+  .continueHeadText {
+    width: 100%;
+    text-align: center;
+  }
+  .continueHeadText h3 {
+    font-size: 36px;
+    line-height: 50px;
+  }
+  .continueHeadText p {
+    padding-bottom: 40px;
+  }
+  .continueSideText h3 {
+    font-size: 22px;
+    line-height: 34px;
+  }
+  .continueSideText {
+    text-align: center;
+  }
+  /* continue part end */
+
+  /* itam part start */
+  #itemPart {
+    padding: 10px 0;
+  }
+  .itemHeadText h3 {
+    width: 100%;
+  }
+  .itemHeadText h3 {
+    font-size: 32px;
+    line-height: 45px;
+    width: 100%;
+  }
+  .itemHeadText p {
+    padding-top: 25px;
+    padding-bottom: 45px;
+  }
+  .itemCountNum {
+    padding-left: 0px;
+    margin-right: 0px;
+  }
+  .itemLeftContein {
+    display: block;
+  }
+  .itemCountNum h3 {
+    text-align: left;
+  }
+  .itemLeftConteinPra {
+    width: 100%;
+    margin-top: 9px;
+  }
+  .itemTextWithIcon h3 {
+    font-size: 18px;
+    padding-bottom: 0px;
+    line-height: 24px;
+  }
+  .itemLeftConteinPra p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .itemTextWithIcon i {
+    font-size: 12px;
+    padding: 5px 0;
+  }
+  .itemCountNum h3 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  /* itam part end */
+
+  /* contact part start */
+  .textWithForm {
+    display: block;
+  }
+  .contactTextWithImg {
+    width: 100%;
+  }
+  .contactOverLe {
+    width: 100%;
+    padding-top: 90px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+  }
+  .contactOverLe h3 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .contactOverLe p {
+    font-size: 14px;
+    line-height: 23px;
+  }
+  .contactFrom {
+    width: 100%;
+  }
+  .contFormText {
+    text-align: center;
+  }
+  .contactFormWrap {
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+  }
+  .contactFormWrap {
+    padding-top: 26px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+  }
+  .buttOne button[type="submit"] {
+    padding: 15px 91px;
+    font-size: 14px;
+    width: 100%;
+  }
+  .contactFrom {
+    border-radius: 0px 0px 10px 10px;
+  }
+  .contactImg img {
+    border-radius: 62px 0px 0 0;
+  }
+  /* contact part end */
+
+  /* view part start */
+  #viewPart {
+    padding-bottom: 40px;
+  }
+  .viewHeadText h3 {
+    font-size: 30px;
+    padding-bottom: 25px;
+  }
+  .viewText h4 {
+    font-size: 12px;
+    padding-top: 13px;
+  }
+  .viewText h3 {
+    font-size: 20px;
+    line-height: 28px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .viewText p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  .viewText a {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  .viewText a i {
+    padding-left: 5px;
+    font-size: 13px;
+  }
+  .Vmmt {
+    margin-top: 30px;
+  }
+  /* view part end */
+
+  /* media part start */
+
+  #mediaPart {
+    padding-top: 60px;
+    background: #1c1e53;
+  }
+  .offset-2 {
+    margin-left: 0;
+  }
+  .meLogo {
+    width: 130px;
+  }
+
+  .meText p {
+    font-size: 13px;
+    line-height: 22px;
+    padding-top: 11px;
+    padding-bottom: 50px;
+  }
+  .meLeText h3 {
+    font-size: 30px;
+  }
+  .meLeText p {
+    font-size: 13px;
+    line-height: 22px;
+    padding-bottom: 28px;
+    padding-top: 14px;
+  }
+  .meLeIcon {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .contactNumAndEm {
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-around;
+  }
+  .contEmail h3,
+  .contNumber h3 {
+    font-size: 13px;
+  }
+  .contEmail p,
+  .contNumber p {
+    font-size: 12px;
+  }
+
+  /* media part end */
+
+  /* footer part start */
+  #footerPart {
+    padding: 25px 0;
+    background: #fff;
+  }
+  .footerManu {
+    display: none;
+  }
+  .footerTextWithManu {
+    display: block;
+    text-align: center;
+  }
+  .footerText h3 {
+    font-size: 13px;
+  }
+  /* footer part end */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* All common css start */
+  .container {
+    width: 95% !important;
+    margin: 0 auto !important;
+    overflow: hidden !important;
+  }
+  /* All common css end */
+
+  /* nav part start */
+  .navBar {
+    display: none;
+  }
+  .navLogo {
+    width: 50%;
+  }
+  .nabButt {
+    width: 50%;
+    padding: 10px 0;
+  }
+  .nabButt a {
+    font-size: 12px;
+    padding: 13px 35px;
+  }
+  /* nav part end */
+
+  /* banner part start */
+  .bannerWrap {
+    display: block;
+  }
+  .bannerText {
+    width: 100%;
+  }
+  #bannerPart {
+    width: 100%;
+    padding-top: 122px;
+    padding-bottom: 80px;
+  }
+  .bannerHeadText h1 {
+    font-size: 38px;
+    line-height: 58px;
+    text-align: center;
+  }
+  .bannerPra p {
+    padding-bottom: 0px;
+    padding-right: 0px;
+    text-align: center;
+  }
+  .bannerButt {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 60px;
+  }
+  .bannerButt a {
+    font-size: 12px;
+    padding: 13px 31px;
+    border-radius: 41px;
+    border: 2px solid rgba(244, 246, 252, 0.2);
+  }
+  .bttIcon {
+    padding-left: 7px;
+  }
+  .bannerSideImg {
+    width: 100%;
+  }
+  /* banner part end */
+
+  /* service part start */
+  #servicePart {
+    padding: 70px 0;
+  }
+  .serviceWrap {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .serviceText {
+    width: 100%;
+  }
+  .serviceText h3 {
+    font-size: 46px;
+  }
+  .serviceText {
+    text-align: center;
+  }
+  .secvItem {
+    display: flex;
+    justify-content: space-between;
+  }
+  .serviceItemWrap {
+    width: 100%;
+  }
+  .thisItem {
+    width: 334px;
+    margin: 0 auto;
+    margin-top: 50px !important;
+  }
+  /* service part end */
+
+  /* project part start */
+  #projectPart {
+    padding: 70px 0;
+  }
+  .projectHeadText h3 {
+    font-size: 30px;
+    padding: 10px 0;
+  }
+
+  .projectHeadText a {
+    font-size: 12px;
+    padding: 13px 35px;
+    border-radius: 41px;
+    border: 2px solid rgba(11, 11, 12, 0.2);
+    margin-top: 25px;
+  }
+  .projectHeadText {
+    display: block;
+  }
+  .projectHeadText a i {
+    padding-left: 2px;
+  }
+  .SecprojectImg {
+    width: 100%;
+  }
+  .fiPrOverLe {
+    display: block !important;
+    width: 100%;
+  }
+  .secImgOverLe {
+    display: block !important;
+  }
+  .fiPrOverLeText {
+    padding-top: 78px;
+    padding-left: 25px;
+    padding-bottom: 0px;
+  }
+  .fiPrOverLe h3 {
+    font-size: 38px;
+    line-height: 49px;
+  }
+  .firstProjectImg {
+    margin-bottom: 20px;
+  }
+  .fiPrOverLe p {
+    font-size: 16px;
+    line-height: 22px;
+    padding-top: 16px;
+    padding-bottom: 40px;
+  }
+  .secImgOverLeText {
+    padding-top: 40px;
+    padding-left: 25px;
+    padding-bottom: 0px;
+  }
+  .secImgOverLeText h3 {
+    font-size: 38px;
+    padding-right: 100px;
+    padding-bottom: 27px;
+    padding-top: 50px;
+    line-height: 49px;
+  }
+  /* project part end */
+
+  /* product part start */
+  #productPart {
+    padding: 60px 0;
+    background: #f4f6fc;
+  }
+  .productHeadText {
+    width: 100%;
+  }
+  .productHeadText h3 {
+    font-size: 35px;
+    line-height: 47px;
+  }
+
+  .thisProductItem {
+    background: #131313;
+    margin-top: 16px;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .thisProText h3 {
+    color: #707189;
+    line-height: 30px;
+  }
+  .thisProText p {
+    color: #707189;
+  }
+  /* product part end */
+
+  /* continue part start */
+  #continuePart {
+    padding: 70px 0;
+    background: rgba(244, 246, 252, 0.5);
+  }
+  .continueHeadText {
+    width: 100%;
+    text-align: center;
+  }
+  .continueHeadText h3 {
+    font-size: 36px;
+    line-height: 50px;
+  }
+  .continueHeadText p {
+    padding-bottom: 40px;
+  }
+  .continueSideText h3 {
+    font-size: 22px;
+    line-height: 34px;
+  }
+  .continueSideText {
+    text-align: center;
+  }
+  /* continue part end */
+
+  /* itam part start */
+  #itemPart {
+    padding: 10px 0;
+  }
+  .itemHeadText h3 {
+    width: 100%;
+  }
+  .itemHeadText h3 {
+    font-size: 32px;
+    line-height: 45px;
+    width: 100%;
+  }
+  .itemHeadText p {
+    padding-top: 25px;
+    padding-bottom: 45px;
+  }
+  .itemCountNum {
+    padding-left: 0px;
+    margin-right: 0px;
+  }
+  .itemLeftContein {
+    display: block;
+  }
+  .itemCountNum h3 {
+    text-align: left;
+  }
+  .itemLeftConteinPra {
+    width: 100%;
+    margin-top: 9px;
+  }
+  .itemTextWithIcon h3 {
+    font-size: 18px;
+    padding-bottom: 0px;
+    line-height: 24px;
+  }
+  .itemLeftConteinPra p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .itemTextWithIcon i {
+    font-size: 12px;
+    padding: 5px 0;
+  }
+  .itemCountNum h3 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  /* itam part end */
+
+  /* contact part start */
+  .textWithForm {
+    display: block;
+  }
+  .contactTextWithImg {
+    width: 100%;
+  }
+  .contactOverLe {
+    width: 100%;
+    padding-top: 90px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+  }
+  .contactOverLe h3 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .contactOverLe p {
+    font-size: 14px;
+    line-height: 23px;
+  }
+  .contactFrom {
+    width: 100%;
+  }
+  .contFormText {
+    text-align: center;
+  }
+  .contactFormWrap {
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+  }
+  .contactFormWrap {
+    padding-top: 26px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+  }
+  .buttOne button[type="submit"] {
+    padding: 15px 91px;
+    font-size: 14px;
+    width: 100%;
+  }
+  .contactFrom {
+    border-radius: 0px 0px 10px 10px;
+  }
+  .contactImg img {
+    border-radius: 62px 0px 0 0;
+  }
+  /* contact part end */
+
+  /* view part start */
+  #viewPart {
+    padding-bottom: 40px;
+  }
+  .viewHeadText h3 {
+    font-size: 30px;
+    padding-bottom: 25px;
+  }
+  .viewText h4 {
+    font-size: 12px;
+    padding-top: 13px;
+  }
+  .viewText h3 {
+    font-size: 20px;
+    line-height: 28px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .viewText p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  .viewText a {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  .viewText a i {
+    padding-left: 5px;
+    font-size: 13px;
+  }
+  .Vmmt {
+    margin-top: 30px;
+  }
+  /* view part end */
+
+  /* media part start */
+
+  #mediaPart {
+    padding-top: 60px;
+    background: #1c1e53;
+  }
+  .offset-2 {
+    margin-left: 0;
+  }
+  .meLogo {
+    width: 130px;
+  }
+
+  .meText p {
+    font-size: 13px;
+    line-height: 22px;
+    padding-top: 11px;
+    padding-bottom: 50px;
+  }
+  .meLeText h3 {
+    font-size: 30px;
+  }
+  .meLeText p {
+    font-size: 13px;
+    line-height: 22px;
+    padding-bottom: 28px;
+    padding-top: 14px;
+  }
+  .meLeIcon {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .contactNumAndEm {
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-around;
+  }
+  .contEmail h3,
+  .contNumber h3 {
+    font-size: 13px;
+  }
+  .contEmail p,
+  .contNumber p {
+    font-size: 12px;
+  }
+
+  /* media part end */
+
+  /* footer part start */
+  #footerPart {
+    padding: 25px 0;
+    background: #fff;
+  }
+  .footerManu {
+    display: none;
+  }
+  .footerTextWithManu {
+    display: block;
+    text-align: center;
+  }
+  .footerText h3 {
+    font-size: 13px;
+  }
+  /* footer part end */
+}
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* All common css start */
+  .container {
+    width: 95% !important;
+    margin: 0 auto !important;
+    overflow: hidden !important;
+  }
+  /* All common css end */
+
+  /* nav part start */
+  .navBar {
+    display: none;
+  }
+  .navLogo {
+    width: 50%;
+  }
+  .nabButt {
+    width: 50%;
+    padding: 10px 0;
+  }
+  .nabButt a {
+    font-size: 12px;
+    padding: 13px 35px;
+  }
+  /* nav part end */
+
+  /* banner part start */
+  .bannerWrap {
+    display: block;
+  }
+  .bannerText {
+    width: 100%;
+  }
+  #bannerPart {
+    width: 100%;
+    padding-top: 122px;
+    padding-bottom: 80px;
+  }
+  .bannerHeadText h1 {
+    font-size: 38px;
+    line-height: 58px;
+    text-align: center;
+  }
+  .bannerPra p {
+    padding-bottom: 0px;
+    padding-right: 0px;
+    text-align: center;
+  }
+  .bannerButt {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 60px;
+  }
+  .bannerButt a {
+    font-size: 12px;
+    padding: 13px 31px;
+    border-radius: 41px;
+    border: 2px solid rgba(244, 246, 252, 0.2);
+  }
+  .bttIcon {
+    padding-left: 7px;
+  }
+  .bannerSideImg {
+    width: 100%;
+  }
+  /* banner part end */
+
+  /* service part start */
+  #servicePart {
+    padding: 70px 0;
+  }
+  .serviceWrap {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .serviceText {
+    width: 100%;
+  }
+  .serviceText h3 {
+    font-size: 46px;
+  }
+  .serviceText {
+    text-align: center;
+  }
+  .secvItem {
+    display: block;
+  }
+  .serviceItemWrap {
+    width: 100%;
+  }
+  .thisItem {
+    width: 334px;
+    margin: 0 auto;
+    margin-top: 50px !important;
+  }
+  /* service part end */
+
+  /* project part start */
+  #projectPart {
+    padding: 70px 0;
+  }
+  .projectHeadText h3 {
+    font-size: 30px;
+    padding: 10px 0;
+  }
+
+  .projectHeadText a {
+    font-size: 12px;
+    padding: 13px 35px;
+    border-radius: 41px;
+    border: 2px solid rgba(11, 11, 12, 0.2);
+    margin-top: 25px;
+  }
+  .projectHeadText {
+    display: block;
+  }
+  .projectHeadText a i {
+    padding-left: 2px;
+  }
+  .SecprojectImg {
+    width: 100%;
+  }
+  .fiPrOverLe {
+    display: block !important;
+    width: 100%;
+  }
+  .secImgOverLe {
+    display: block !important;
+  }
+  .fiPrOverLeText {
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-bottom: 0px;
+  }
+  .fiPrOverLe h3 {
+    font-size: 21px;
+    line-height: 27px;
+  }
+  .firstProjectImg {
+    margin-bottom: 20px;
+  }
+  .fiPrOverLe p {
+    font-size: 12px;
+    line-height: 20px;
+    padding-top: 16px;
+    padding-bottom: 40px;
+  }
+  .secImgOverLeText {
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-bottom: 0px;
+  }
+  .secImgOverLeText h3 {
+    font-size: 22px;
+    padding-right: 100px;
+    padding-bottom: 51px;
+    padding-top: 50px;
+  }
+  /* project part end */
+
+  /* product part start */
+  #productPart {
+    padding: 60px 0;
+    background: #f4f6fc;
+  }
+  .productHeadText {
+    width: 100%;
+  }
+  .productHeadText h3 {
+    font-size: 35px;
+    line-height: 47px;
+  }
+
+  .thisProductItem {
+    background: #131313;
+    margin-top: 16px;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .thisProText h3 {
+    color: #707189;
+    line-height: 30px;
+  }
+  .thisProText p {
+    color: #707189;
+  }
+  /* product part end */
+
+  /* continue part start */
+  #continuePart {
+    padding: 70px 0;
+    background: rgba(244, 246, 252, 0.5);
+  }
+  .continueHeadText {
+    width: 100%;
+    text-align: center;
+  }
+  .continueHeadText h3 {
+    font-size: 36px;
+    line-height: 50px;
+  }
+  .continueHeadText p {
+    padding-bottom: 40px;
+  }
+  .continueSideText h3 {
+    font-size: 22px;
+    line-height: 34px;
+  }
+  .continueSideText {
+    text-align: center;
+  }
+  /* continue part end */
+
+  /* itam part start */
+  #itemPart {
+    padding: 10px 0;
+  }
+  .itemHeadText h3 {
+    width: 100%;
+  }
+  .itemHeadText h3 {
+    font-size: 32px;
+    line-height: 45px;
+    width: 100%;
+  }
+  .itemHeadText p {
+    padding-top: 25px;
+    padding-bottom: 45px;
+  }
+  .itemCountNum {
+    padding-left: 0px;
+    margin-right: 0px;
+  }
+  .itemLeftContein {
+    display: block;
+  }
+  .itemCountNum h3 {
+    text-align: left;
+  }
+  .itemLeftConteinPra {
+    width: 100%;
+    margin-top: 9px;
+  }
+  .itemTextWithIcon h3 {
+    font-size: 18px;
+    padding-bottom: 0px;
+    line-height: 24px;
+  }
+  .itemLeftConteinPra p {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .itemTextWithIcon i {
+    font-size: 12px;
+    padding: 5px 0;
+  }
+  .itemCountNum h3 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  /* itam part end */
+
+  /* contact part start */
+  .textWithForm {
+    display: block;
+  }
+  .contactTextWithImg {
+    width: 100%;
+  }
+  .contactOverLe {
+    width: 100%;
+    padding-top: 90px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+  }
+  .contactOverLe h3 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .contactOverLe p {
+    font-size: 14px;
+    line-height: 23px;
+  }
+  .contactFrom {
+    width: 100%;
+  }
+  .contFormText {
+    text-align: center;
+  }
+  .contactFormWrap {
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+  }
+  .contactFormWrap {
+    padding-top: 26px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+  }
+  .buttOne button[type="submit"] {
+    padding: 15px 91px;
+    font-size: 14px;
+    width: 100%;
+  }
+  .contactFrom {
+    border-radius: 0px 0px 10px 10px;
+  }
+  .contactImg img {
+    border-radius: 62px 0px 0 0;
+  }
+  /* contact part end */
+
+  /* view part start */
+  #viewPart {
+    padding-bottom: 40px;
+  }
+  .viewHeadText h3 {
+    font-size: 30px;
+    padding-bottom: 25px;
+  }
+  .viewText h4 {
+    font-size: 12px;
+    padding-top: 13px;
+  }
+  .viewText h3 {
+    font-size: 20px;
+    line-height: 28px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .viewText p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  .viewText a {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  .viewText a i {
+    padding-left: 5px;
+    font-size: 13px;
+  }
+  .Vmmt {
+    margin-top: 30px;
+  }
+  /* view part end */
+
+  /* media part start */
+
+  #mediaPart {
+    padding-top: 60px;
+    background: #1c1e53;
+  }
+  .offset-2 {
+    margin-left: 0;
+  }
+  .meLogo {
+    width: 130px;
+  }
+
+  .meText p {
+    font-size: 13px;
+    line-height: 22px;
+    padding-top: 11px;
+    padding-bottom: 50px;
+  }
+  .meLeText h3 {
+    font-size: 30px;
+  }
+  .meLeText p {
+    font-size: 13px;
+    line-height: 22px;
+    padding-bottom: 28px;
+    padding-top: 14px;
+  }
+  .meLeIcon {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .contactNumAndEm {
+    padding-left: 20px;
+  }
+  .contEmail h3,
+  .contNumber h3 {
+    font-size: 13px;
+  }
+  .contEmail p,
+  .contNumber p {
+    font-size: 12px;
+  }
+
+  /* media part end */
+
+  /* footer part start */
+  #footerPart {
+    padding: 25px 0;
+    background: #fff;
+  }
+  .footerManu {
+    display: none;
+  }
+  .footerTextWithManu {
+    display: block;
+    text-align: center;
+  }
+  .footerText h3 {
+    font-size: 13px;
+  }
+  /* footer part end */
+}
